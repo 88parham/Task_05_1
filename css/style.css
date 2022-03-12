@@ -1,0 +1,68 @@
+.header {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.is-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-area {
+  width: 260px;
+  height: 30px;
+  margin: 10px 0px 10px 0px;
+  padding: 2px 20px 2px 20px;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: aliceblue;
+  box-shadow: inset 0 1px 10px rgba(10, 10, 10, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  flex-direction: column;
+}
+
+.number-button {
+  width: 70px;
+  height: 30px;
+  margin: 3px;
+  border-radius: 15px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.alphabetic {
+  color: gray;
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.rose-button {
+  background-color: rgb(255, 199, 199);
+}
+
+.gray-button {
+  background-color: rgb(184, 184, 184);
+}
+
+.blue-button {
+  background-color: skyblue;
+}
